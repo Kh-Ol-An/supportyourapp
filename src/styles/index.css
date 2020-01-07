@@ -1,0 +1,28 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+​*,
+*::before,
+*::after {
+  font-size: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+​img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max--moz-device-pixel-ratio: 1),
+  only screen and (-webkit-max-device-pixel-ratio: 1),
+  only screen and (-o-max-device-pixel-ratio: 1),
+  only screen and (max-device-pixel-ratio: 1) {
+  html {
+    font-size: 5px;
+  }
+}
