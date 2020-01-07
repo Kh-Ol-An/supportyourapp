@@ -30,6 +30,7 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+/node-module/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -60,6 +61,7 @@ BenchmarkDotNet.Artifacts/
 project.lock.json
 project.fragment.lock.json
 artifacts/
+package-lock.json
 
 # StyleCop
 StyleCopReport.xml
