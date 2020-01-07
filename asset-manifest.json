@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/supportyourapp/static/css/main.4be839ff.chunk.css",
+    "main.js": "/supportyourapp/static/js/main.37f66e85.chunk.js",
+    "main.js.map": "/supportyourapp/static/js/main.37f66e85.chunk.js.map",
+    "runtime-main.js": "/supportyourapp/static/js/runtime-main.c5cf3ae4.js",
+    "runtime-main.js.map": "/supportyourapp/static/js/runtime-main.c5cf3ae4.js.map",
+    "static/js/2.803ad52c.chunk.js": "/supportyourapp/static/js/2.803ad52c.chunk.js",
+    "static/js/2.803ad52c.chunk.js.map": "/supportyourapp/static/js/2.803ad52c.chunk.js.map",
+    "index.html": "/supportyourapp/index.html",
+    "precache-manifest.4a87409709081a6d68ecfa6889ed6254.js": "/supportyourapp/precache-manifest.4a87409709081a6d68ecfa6889ed6254.js",
+    "service-worker.js": "/supportyourapp/service-worker.js",
+    "static/css/main.4be839ff.chunk.css.map": "/supportyourapp/static/css/main.4be839ff.chunk.css.map",
+    "static/js/2.803ad52c.chunk.js.LICENSE": "/supportyourapp/static/js/2.803ad52c.chunk.js.LICENSE",
+    "static/media/1.jpg": "/supportyourapp/static/media/1.0567638b.jpg",
+    "static/media/closeEye.50bda4bb.svg": "/supportyourapp/static/media/closeEye.50bda4bb.svg",
+    "static/media/openEye.b0568867.svg": "/supportyourapp/static/media/openEye.b0568867.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5cf3ae4.js",
+    "static/js/2.803ad52c.chunk.js",
+    "static/css/main.4be839ff.chunk.css",
+    "static/js/main.37f66e85.chunk.js"
+  ]
+}
