@@ -1,43 +1,43 @@
 .formWrap {
   height: 100vh;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.form {
-  box-sizing: border-box;
+.formCont {
   width: 72em;
   height: 84em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  transform-style: preserve-3d; */
-  transform-origin: top;
+  position: relative;
+  perspective: 500px;
+}
+
+.form {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
   background-color: #f4f9f4;
   box-shadow: 0.419px 5.985px 65px 0px rgba(0, 0, 0, 0.22);
   padding: 15.5em 8em 8em;
-  animation-delay: 3s;
-  animation-duration: 5s;
+  transform-origin: top;
+  animation-duration: 1.5s;
   animation-name: appearanceForm;
 }
 
 @keyframes appearanceForm {
   0% {
-    transform: translate(-50%, -50%) rotateX(-90deg);
+    transform: rotateX(-90deg);
     opacity: 0;
   }
   60% {
-    transform: translate(-50%, -50%) rotateX(10deg);
+    transform: rotateX(5deg);
     opacity: 1;
   }
   100% {
-    transform: translate(-50%, -50%) rotateX(0deg);
+    transform: rotateX(0deg);
   }
 }
 
@@ -73,10 +73,16 @@
   font-size: 3.2rem; /* 32px */
   line-height: 1em;
   width: 100%;
+  height: 2.5em;
   border: 2px solid #636363;
-  padding: 0.5625em 0.5em;
+  padding: 0 0.5em;
   font-family: "Lato", sans-serif;
   color: #b3b3b3;
+}
+
+.login:focus,
+.password:focus {
+  border: 4px solid #00a0ff;
 }
 
 .loginWrap {
@@ -157,6 +163,20 @@
   border: none;
   border-radius: 0.3077em;
   background-color: #00a0ff;
+}
+
+.disable::after {
+  font-size: 2.6rem; /* 26px */
+  width: 0.2308em;
+  height: 0.4616em;
+  position: absolute;
+  top: 0.1538em;
+  left: 0.3077em;
+  content: "";
+  display: inline-block;
+  border: solid #fff;
+  border-width: 0 0.0769em 0.0769em 0;
+  transform: rotate(45deg);
 }
 
 .remember > input {
